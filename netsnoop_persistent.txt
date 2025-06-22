@@ -1,0 +1,535 @@
+
+[2025-06-22 18:05:56 UTC+05:30] 
+================================================================================
+🚀 NEW SESSION STARTED: 2025-06-22 18:05:56 UTC+05:30
+================================================================================
+[2025-06-22 18:05:56 UTC+05:30] [96m🔗 NetSnoop — Universal Process Monitor & Anomaly Detection[0m
+[2025-06-22 18:05:56 UTC+05:30] 📌 Language-agnostic process burst detection active
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-timesyn (PID 193, User: systemd-timesync)
+        ├── Executable: N/A
+        └── CmdLine: /usr/lib/systemd/systemd-timesyncd
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd (PID 610, User: chitv)
+        ├── Executable: N/A
+        └── CmdLine: /usr/lib/systemd/systemd --user
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── agetty (PID 332, User: root)
+        ├── Executable: N/A
+        └── CmdLine: /sbin/agetty -o -p -- \u --noclear - linux
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd (PID 610, User: chitv)
+        └── (sd-pam) (PID 611, User: chitv)
+            ├── Executable: N/A
+            └── CmdLine: (sd-pam)
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-resolve (PID 192, User: systemd-resolve)
+        ├── Executable: N/A
+        └── CmdLine: /usr/lib/systemd/systemd-resolved
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── agetty (PID 325, User: root)
+        ├── Executable: N/A
+        └── CmdLine: /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 5736, User: root)
+            └── Relay(5742) (PID 5738, User: root)
+                └── bash (PID 5742, User: chitv)
+                    ├── Executable: /usr/bin/bash
+                    └── CmdLine: -bash
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 5736, User: root)
+            └── Relay(5742) (PID 5738, User: root)
+                └── bash (PID 5742, User: chitv)
+                    └── python3 (PID 5762, User: chitv)
+                        ├── Executable: /usr/bin/python3.12
+                        └── CmdLine: python3 acm.py
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-journal (PID 136, User: root)
+        ├── Executable: N/A
+        └── CmdLine: /usr/lib/systemd/systemd-journald
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-udevd (PID 186, User: root)
+        ├── Executable: N/A
+        └── CmdLine: /usr/lib/systemd/systemd-udevd
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── wsl-pro-service (PID 299, User: root)
+        ├── Executable: N/A
+        └── CmdLine: /usr/libexec/wsl-pro-service -vv
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── login (PID 472, User: root)
+            └── bash (PID 620, User: chitv)
+                ├── Executable: /usr/bin/bash
+                └── CmdLine: -bash
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── dbus-daemon (PID 277, User: messagebus)
+        ├── Executable: N/A
+        └── CmdLine: @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        ├── Executable: N/A
+        └── CmdLine: /init
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── init (PID 7, User: root)
+            ├── Executable: N/A
+            └── CmdLine: plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 5736, User: root)
+            └── Relay(5742) (PID 5738, User: root)
+                ├── Executable: N/A
+                └── CmdLine: /init
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-udevd (PID 186, User: root)
+        └── (udev-worker) (PID 5761, User: root)
+            ├── Executable: N/A
+            └── CmdLine: (udev-worker)
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── rsyslogd (PID 329, User: syslog)
+        ├── Executable: N/A
+        └── CmdLine: /usr/sbin/rsyslogd -n -iNONE
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 4016, User: root)
+            ├── Executable: N/A
+            └── CmdLine: /init
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 4016, User: root)
+            └── Relay(4023) (PID 4017, User: root)
+                └── bash (PID 4023, User: chitv)
+                    ├── Executable: /usr/bin/bash
+                    └── CmdLine: -bash
+[18:05:56] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    ├── Executable: N/A
+    └── CmdLine: /sbin/init
+[18:05:57] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── login (PID 472, User: root)
+            ├── Executable: N/A
+            └── CmdLine: /bin/login -f
+[18:05:57] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-udevd (PID 186, User: root)
+        └── (udev-worker) (PID 5759, User: root)
+            ├── Executable: N/A
+            └── CmdLine: (udev-worker)
+[18:05:57] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-udevd (PID 186, User: root)
+        └── (udev-worker) (PID 5760, User: root)
+            ├── Executable: N/A
+            └── CmdLine: (udev-worker)
+[18:05:57] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-logind (PID 294, User: root)
+        ├── Executable: N/A
+        └── CmdLine: /usr/lib/systemd/systemd-logind
+[18:05:57] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── cron (PID 276, User: root)
+        ├── Executable: N/A
+        └── CmdLine: /usr/sbin/cron -f -P
+[18:05:57] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 4016, User: root)
+            └── Relay(4023) (PID 4017, User: root)
+                ├── Executable: N/A
+                └── CmdLine: /init
+[18:05:57] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 5736, User: root)
+            ├── Executable: N/A
+            └── CmdLine: /init
+[18:05:57] 🔧 New Process Detected:
+├── Executable: N/A
+└── CmdLine: N/A
+[18:05:57] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── unattended-upgr (PID 360, User: root)
+        ├── Executable: N/A
+        └── CmdLine: /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+[2025-06-22 21:07:53 UTC+05:30] 
+================================================================================
+🚀 NEW SESSION STARTED: 2025-06-22 21:07:53 UTC+05:30
+================================================================================
+[2025-06-22 21:07:53 UTC+05:30] [96m🔗 NetSnoop — Universal Process Monitor & Anomaly Detection[0m
+[2025-06-22 21:07:53 UTC+05:30] 📌 Language-agnostic process burst detection active
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        ├── Executable: N/A
+        └── CmdLine: /init
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6230, User: root)
+            └── Relay(6232) (PID 6231, User: root)
+                └── bash (PID 6232, User: chitv)
+                    ├── Executable: /usr/bin/bash
+                    └── CmdLine: -bash
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6230, User: root)
+            └── Relay(6232) (PID 6231, User: root)
+                ├── Executable: N/A
+                └── CmdLine: /init
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── init (PID 7, User: root)
+            ├── Executable: N/A
+            └── CmdLine: plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── login (PID 472, User: root)
+            └── bash (PID 620, User: chitv)
+                ├── Executable: /usr/bin/bash
+                └── CmdLine: -bash
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── rsyslogd (PID 329, User: syslog)
+        ├── Executable: N/A
+        └── CmdLine: /usr/sbin/rsyslogd -n -iNONE
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    ├── Executable: N/A
+    └── CmdLine: /sbin/init
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6230, User: root)
+            ├── Executable: N/A
+            └── CmdLine: /init
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-logind (PID 294, User: root)
+        ├── Executable: N/A
+        └── CmdLine: /usr/lib/systemd/systemd-logind
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd (PID 610, User: chitv)
+        └── (sd-pam) (PID 611, User: chitv)
+            ├── Executable: N/A
+            └── CmdLine: (sd-pam)
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-timesyn (PID 193, User: systemd-timesync)
+        ├── Executable: N/A
+        └── CmdLine: /usr/lib/systemd/systemd-timesyncd
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-udevd (PID 186, User: root)
+        ├── Executable: N/A
+        └── CmdLine: /usr/lib/systemd/systemd-udevd
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-journal (PID 136, User: root)
+        ├── Executable: N/A
+        └── CmdLine: /usr/lib/systemd/systemd-journald
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 4016, User: root)
+            └── Relay(4023) (PID 4017, User: root)
+                ├── Executable: N/A
+                └── CmdLine: /init
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── wsl-pro-service (PID 299, User: root)
+        ├── Executable: N/A
+        └── CmdLine: /usr/libexec/wsl-pro-service -vv
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 4016, User: root)
+            ├── Executable: N/A
+            └── CmdLine: /init
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── agetty (PID 325, User: root)
+        ├── Executable: N/A
+        └── CmdLine: /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 4016, User: root)
+            └── Relay(4023) (PID 4017, User: root)
+                └── bash (PID 4023, User: chitv)
+                    ├── Executable: /usr/bin/bash
+                    └── CmdLine: -bash
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── login (PID 472, User: root)
+            ├── Executable: N/A
+            └── CmdLine: /bin/login -f
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-resolve (PID 192, User: systemd-resolve)
+        ├── Executable: N/A
+        └── CmdLine: /usr/lib/systemd/systemd-resolved
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6230, User: root)
+            └── Relay(6232) (PID 6231, User: root)
+                └── bash (PID 6232, User: chitv)
+                    └── python3 (PID 6264, User: chitv)
+                        ├── Executable: /usr/bin/python3.12
+                        └── CmdLine: python3 acm.py
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── unattended-upgr (PID 360, User: root)
+        ├── Executable: N/A
+        └── CmdLine: /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── cron (PID 276, User: root)
+        ├── Executable: N/A
+        └── CmdLine: /usr/sbin/cron -f -P
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── agetty (PID 332, User: root)
+        ├── Executable: N/A
+        └── CmdLine: /sbin/agetty -o -p -- \u --noclear - linux
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd (PID 610, User: chitv)
+        ├── Executable: N/A
+        └── CmdLine: /usr/lib/systemd/systemd --user
+[21:07:53] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── dbus-daemon (PID 277, User: messagebus)
+        ├── Executable: N/A
+        └── CmdLine: @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+[21:08:00] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6265, User: root)
+            └── Relay(6270) (PID 6267, User: root)
+                └── bash (PID 6270, User: chitv)
+                    ├── Executable: /usr/bin/bash
+                    └── CmdLine: -bash
+[21:08:00] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-udevd (PID 186, User: root)
+        └── (udev-worker) (PID 6266, User: root)
+            ├── Executable: N/A
+            └── CmdLine: (udev-worker)
+[21:08:00] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6265, User: root)
+            ├── Executable: N/A
+            └── CmdLine: /init
+[21:08:00] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6265, User: root)
+            └── Relay(6270) (PID 6267, User: root)
+                ├── Executable: N/A
+                └── CmdLine: /init
+[21:08:00] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-udevd (PID 186, User: root)
+        └── (udev-worker) (PID 6269, User: root)
+            ├── Executable: N/A
+            └── CmdLine: (udev-worker)
+[21:08:00] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-udevd (PID 186, User: root)
+        └── (udev-worker) (PID 6268, User: root)
+            ├── Executable: N/A
+            └── CmdLine: (udev-worker)
+[21:08:09] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-udevd (PID 186, User: root)
+        └── (udev-worker) (PID 6288, User: root)
+            ├── Executable: N/A
+            └── CmdLine: (udev-worker)
+[21:08:09] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-udevd (PID 186, User: root)
+        └── (udev-worker) (PID 6289, User: root)
+            ├── Executable: N/A
+            └── CmdLine: (udev-worker)
+[21:08:09] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-udevd (PID 186, User: root)
+        └── (udev-worker) (PID 6287, User: root)
+            ├── Executable: N/A
+            └── CmdLine: (udev-worker)
+[21:08:09] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-udevd (PID 186, User: root)
+        └── (udev-worker) (PID 6286, User: root)
+            ├── Executable: N/A
+            └── CmdLine: (udev-worker)
+[21:08:13] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6265, User: root)
+            └── Relay(6270) (PID 6267, User: root)
+                └── bash (PID 6270, User: chitv)
+                    └── python3 (PID 6290, User: chitv)
+                        └── sleep (PID 6296, User: chitv)
+                            ├── Executable: /usr/bin/sleep
+                            └── CmdLine: sleep 1
+[21:08:13] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6265, User: root)
+            └── Relay(6270) (PID 6267, User: root)
+                └── bash (PID 6270, User: chitv)
+                    └── python3 (PID 6290, User: chitv)
+                        └── sleep (PID 6295, User: chitv)
+                            ├── Executable: /usr/bin/sleep
+                            └── CmdLine: sleep 1
+[21:08:14] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6265, User: root)
+            └── Relay(6270) (PID 6267, User: root)
+                └── bash (PID 6270, User: chitv)
+                    └── python3 (PID 6290, User: chitv)
+                        └── sleep (PID 6297, User: chitv)
+                            ├── Executable: /usr/bin/sleep
+                            └── CmdLine: sleep 1
+[21:08:14] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6265, User: root)
+            └── Relay(6270) (PID 6267, User: root)
+                └── bash (PID 6270, User: chitv)
+                    └── python3 (PID 6290, User: chitv)
+                        └── sleep (PID 6291, User: chitv)
+                            ├── Executable: /usr/bin/sleep
+                            └── CmdLine: sleep 1
+[21:08:14] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6265, User: root)
+            └── Relay(6270) (PID 6267, User: root)
+                └── bash (PID 6270, User: chitv)
+                    └── python3 (PID 6290, User: chitv)
+                        └── sleep (PID 6298, User: chitv)
+                            ├── Executable: /usr/bin/sleep
+                            └── CmdLine: sleep 1
+[21:08:14] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6265, User: root)
+            └── Relay(6270) (PID 6267, User: root)
+                └── bash (PID 6270, User: chitv)
+                    └── python3 (PID 6290, User: chitv)
+                        └── sleep (PID 6292, User: chitv)
+                            ├── Executable: /usr/bin/sleep
+                            └── CmdLine: sleep 1
+[21:08:14] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6265, User: root)
+            └── Relay(6270) (PID 6267, User: root)
+                └── bash (PID 6270, User: chitv)
+                    └── python3 (PID 6290, User: chitv)
+                        └── sleep (PID 6293, User: chitv)
+                            ├── Executable: /usr/bin/sleep
+                            └── CmdLine: sleep 1
+[21:08:14] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6265, User: root)
+            └── Relay(6270) (PID 6267, User: root)
+                └── bash (PID 6270, User: chitv)
+                    └── python3 (PID 6290, User: chitv)
+                        └── sleep (PID 6294, User: chitv)
+                            ├── Executable: /usr/bin/sleep
+                            └── CmdLine: sleep 1
+[21:08:14] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6265, User: root)
+            └── Relay(6270) (PID 6267, User: root)
+                └── bash (PID 6270, User: chitv)
+                    └── python3 (PID 6290, User: chitv)
+                        ├── Executable: /usr/bin/python3.12
+                        └── CmdLine: python3 ana1.py
+[2025-06-22 21:08:14 UTC+05:30] └─ systemd (PID 1, User: root)
+    └─ init-systemd(Ub (PID 2, User: root)
+        └─ SessionLeader (PID 6265, User: root)
+            └─ Relay(6270) (PID 6267, User: root)
+                └─ bash (PID 6270, User: chitv)
+                    └─ python3 (PID 6290, User: chitv)
+[2025-06-22 21:08:14 UTC+05:30] [91m⚠️  Multiple Anomalies Detected (Grouped):[0m
+[2025-06-22 21:08:14 UTC+05:30]   • [21:08:14] PID 6290 → 9 spawns — python3 ana1.py (PID 6290)
+[21:08:15] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6265, User: root)
+            └── Relay(6270) (PID 6267, User: root)
+                └── sleep (PID 6306, User: chitv)
+                    ├── Executable: /usr/bin/sleep
+                    └── CmdLine: sleep 1
+[21:08:15] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6265, User: root)
+            └── Relay(6270) (PID 6267, User: root)
+                └── sleep (PID 6310, User: chitv)
+                    ├── Executable: /usr/bin/sleep
+                    └── CmdLine: sleep 1
+[21:08:15] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6265, User: root)
+            └── Relay(6270) (PID 6267, User: root)
+                └── sleep (PID 6308, User: chitv)
+                    ├── Executable: /usr/bin/sleep
+                    └── CmdLine: sleep 1
+[21:08:15] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── init-systemd(Ub (PID 2, User: root)
+        └── SessionLeader (PID 6265, User: root)
+            └── Relay(6270) (PID 6267, User: root)
+                └── sleep (PID 6309, User: chitv)
+                    ├── Executable: /usr/bin/sleep
+                    └── CmdLine: sleep 1
+[21:08:15] 🔧 New Process Detected:
+├── Executable: N/A
+└── CmdLine: N/A
+[21:08:16] 🔧 New Process Detected:
+└── systemd (PID 1, User: root)
+    └── systemd-udevd (PID 186, User: root)
+        └── (udev-worker) (PID 6312, User: root)
+            ├── Executable: N/A
+            └── CmdLine: (udev-worker)
