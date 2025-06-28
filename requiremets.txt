@@ -1,0 +1,29 @@
+# Enhanced System Monitor with Dashboard Integration
+# Requirements for Python dependencies
+
+# Core web framework for dashboard
+streamlit>=1.28.0
+
+# Data manipulation and analysis
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Plotting and visualization
+plotly>=5.15.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Date and time handling
+python-dateutil>=2.8.0
+
+# System monitoring and process management
+psutil>=5.9.0
+
+# Additional utilities
+requests>=2.31.0
+
+# Optional: Enhanced terminal colors (if needed)
+colorama>=0.4.6
+
+# Optional: Better CSV handling
+openpyxl>=3.1.0
