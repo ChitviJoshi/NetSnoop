@@ -60,7 +60,6 @@ streamlit run $(python3 -c "import netsnoop; print(netsnoop.__path__[0] + '/dash
 | **🚨 Smart Alerts** | Threshold-based anomaly detection |
 | **📊 Web Dashboard** | Interactive Streamlit interface |
 | **📝 Persistent Logging** | CSV logs with timestamps |
-| **⚙️ Configurable** | Custom thresholds and settings |
 
 ---
 
@@ -137,26 +136,6 @@ NetSnoop/
 
 ---
 
-## ⚙️ Configuration
-
-Create `netsnoop_config.json` for custom settings:
-
-```json
-{
-  "monitoring": {
-    "cpu_threshold": 75,
-    "memory_threshold": 80,
-    "monitoring_interval": 3
-  },
-  "dashboard": {
-    "auto_refresh_interval": 2,
-    "theme": "dark"
-  }
-}
-```
-
----
-
 ## 🐛 Troubleshooting
 
 | Issue | Solution |
@@ -166,31 +145,13 @@ Create `netsnoop_config.json` for custom settings:
 | Permission errors | `chmod +x ~/.local/bin/netsnoop-init` |
 | WSL2 issues | `wsl --update` then restart |
 
-**Debug Mode:**
-```bash
-export NETSNOOP_DEBUG=1
-python3 -m netsnoop.acm_monitor
-```
-
 ---
 
 ## 🛣️ Roadmap
 
-- **v1.1** - Mobile dashboard, email alerts, configuration GUI
+- **v1.1** - Desktop App, email alerts, configuration GUI
 - **v1.2** - ML anomaly detection, Docker support, cloud integration  
 - **v2.0** - Multi-system monitoring, plugin system, mobile app
-
----
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch: `git checkout -b feature/name`
-3. Install dev dependencies: `pip install -r requirements-dev.txt`
-4. Run tests: `pytest tests/`
-5. Submit pull request
-
-**Areas for contribution:** Bug fixes, dashboard features, documentation, testing
 
 ---
 
@@ -210,8 +171,7 @@ MIT License - see [LICENSE](LICENSE) file.
 
 <div align="center">
 
-**⭐ Star this repo if NetSnoop helps you monitor your systems!**
 
-**Built with ❤️ for developers and system administrators**
+**Built with ❤️ **
 
 </div>
