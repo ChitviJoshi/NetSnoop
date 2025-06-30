@@ -1,5 +1,5 @@
 # 🚀 NetSnoop - Real-Time System Monitor
-#      'Born to Track'
+## *"Born to Track"*
 
 <div align="center">
 
@@ -175,3 +175,4 @@ MIT License - see [LICENSE](LICENSE) file.
 ##   Built with ❤️ 
 
 </div>
+
