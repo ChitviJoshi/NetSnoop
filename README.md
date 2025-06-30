@@ -1,4 +1,5 @@
 # 🚀 NetSnoop - Real-Time System Monitor
+#      'Born to Track'
 
 <div align="center">
 
@@ -55,28 +56,52 @@ streamlit run $(python3 -c "import netsnoop; print(netsnoop.__path__[0] + '/dash
 
 | Feature | Description |
 |---------|-------------|
-| **🔍 Real-time Monitoring** | CPU, Memory, Process Bursts|
+| **🔍 Real-time Monitoring** | CPU, Memory, Process bursts |
 | **🚨 Smart Alerts** | Threshold-based anomaly detection |
 | **📊 Web Dashboard** | Interactive Streamlit interface |
 | **📝 Persistent Logging** | CSV logs with timestamps |
-
+| **⚙️ Configurable** | Custom thresholds and settings |
 
 ---
 
 ## 🏗️ Architecture
 
+### 📊 **System Data Flow**
+
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Terminal 1    │    │   Data Storage   │    │    Browser      │
+│   /proc Files   │    │  acm_monitor.py  │    │   Dashboard     │
 │                 │    │                  │    │                 │
-│ acm_monitor.py  │───▶│ anomalies.csv    │───▶│ Streamlit       │
-│ • CPU Monitor   │    │ • Event Logs     │    │ Dashboard       │
-│ • Memory Track  │    │ • Timestamps     │    │ • Live Charts   │
-│ • Process Watch │    │ • Severity Data  │    │ • Alert System  │
+│ /proc/stat      │───▶│ Direct File Read │───▶│ anomalies.csv   │
+│ /proc/meminfo   │───▶│ Parse CPU/Memory │───▶│ Real-time UI    │
+│ /proc/[pid]/    │───▶│ Process Tracking │───▶│ Alert System    │
 └─────────────────┘    └──────────────────┘    └─────────────────┘
+        │                       │                       │
+        │              ┌────────▼────────┐              │
+        │              │ Threshold Check │              │
+        │              │ CPU > 80%? ✓    │              │
+        │              │ Memory > 85%? ✓ │              │
+        │              │ Process Δ > 10? │              │
+        │              └─────────────────┘              │
+        │                       │                       │
+        └───────────────────────┼───────────────────────┘
+                               ▼
+                    ┌─────────────────┐
+                    │   CSV Logger    │
+                    │ timestamp,type, │
+                    │ severity,value  │
+                    └─────────────────┘
 ```
 
-**Data Flow:** Monitor detects → Logs to CSV → Dashboard visualizes
+### 🔄 **Monitoring Process**
+
+| Step | Source | Process | Output |
+|------|--------|---------|--------|
+| **1. Data Collection** | `/proc/stat`, `/proc/meminfo` | Direct filesystem parsing | Raw metrics |
+| **2. Threshold Analysis** | Raw metrics | Compare vs limits (CPU>80%, RAM>85%) | Boolean flags |
+| **3. Severity Classification** | Threshold results | Critical/Warning/Info logic | Severity level |
+| **4. Event Logging** | Classified events | Write to CSV with timestamp | Persistent storage |
+| **5. Dashboard Update** | CSV file | Streamlit reads & visualizes | Real-time charts |
 
 ---
 
