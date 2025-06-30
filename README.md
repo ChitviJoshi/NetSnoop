@@ -1,5 +1,5 @@
-    # 🚀 NetSnoop - Real-Time System Monitor
-    ##        *"Born to Track"*
+# 🚀 NetSnoop - Real-Time System Monitor
+##        *"Born to Track"*
 
 <div align="center">
 
