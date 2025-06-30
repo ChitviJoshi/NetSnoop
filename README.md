@@ -110,7 +110,7 @@ streamlit run $(python3 -c "import netsnoop; print(netsnoop.__path__[0] + '/dash
 2. **Analysis** - Applies thresholds (CPU >80%, Memory >85%)
 3. **Logging** - Saves events to `anomalies.csv` with severity levels
 4. **Visualization** - Dashboard reads CSV and displays real-time charts
-5. **Alerts** - Color-coded notifications (🔴 Critical, 🟡 Warning, 🟢 Info)
+5. **Alerts** - Color-coded notifications (🔴 Critical, 🟡 Warning)
 
 ---
 
