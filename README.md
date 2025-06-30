@@ -55,11 +55,11 @@ streamlit run $(python3 -c "import netsnoop; print(netsnoop.__path__[0] + '/dash
 
 | Feature | Description |
 |---------|-------------|
-| **🔍 Real-time Monitoring** | CPU, Memory, Processes, USB events |
+| **🔍 Real-time Monitoring** | CPU, Memory, Process Bursts|
 | **🚨 Smart Alerts** | Threshold-based anomaly detection |
 | **📊 Web Dashboard** | Interactive Streamlit interface |
 | **📝 Persistent Logging** | CSV logs with timestamps |
-| **⚙️ Configurable** | Custom thresholds and settings |
+
 
 ---
 
