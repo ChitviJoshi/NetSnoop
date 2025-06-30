@@ -1,0 +1,11 @@
+timestamp,anomaly_type,severity,process_name,pid,user,command,description,cpu_usage,memory_usage_mb,duration,parent_pid,session_id,additional_info
+2024-01-15 14:30:15,High CPU Usage,HIGH,chrome,1234,user1,/usr/bin/google-chrome,High CPU usage: 85.2%,85.2,0.0,5s,1000,20240115_14,
+2024-01-15 14:31:22,Process Burst,MEDIUM,bash,1235,user1,/bin/bash,Process burst: 12 processes spawned rapidly,0.0,0.0,,1001,20240115_14,burst_count:12
+2024-01-15 14:32:45,High Memory Usage,HIGH,firefox,1236,user1,/usr/bin/firefox,High memory usage: 512.3 MB,0.0,512.3,,1000,20240115_14,
+2025-06-29 19:52:09 IST,init,797,Process burst: 18 processes spawned rapidly (spawned by init),HIGH,root,/init
+2025-06-29 19:55:35 IST,python,1447,Process burst: 21 processes spawned rapidly,HIGH,chitv,N/A
+2025-06-29 19:56:11 IST,test2.py,1516,HIGH MEMORY: 69.53 MB memory usage,HIGH,chitv,python3 test2.py
+2025-06-29 19:57:00 IST,python,1545,Process burst: 12 processes spawned rapidly (spawned by test1.py),MEDIUM,chitv,N/A
+2025-06-29 19:57:02 IST,python,1545,Process burst: 21 processes spawned rapidly,HIGH,chitv,N/A
+2025-06-29 19:59:36 IST,test3.py,1578,HIGH CPU: 90.0% CPU usage,HIGH,chitv,python3 test3.py
+2025-06-29 20:00:03 IST,test3.py,1578,HIGH CPU: 90.0% CPU usage,HIGH,chitv,python3 test3.py

@@ -1,0 +1,918 @@
+[2025-06-29 19:52:02 IST] 🚀 NEW SESSION STARTED: 2025-06-29 19:52:02 IST
+[2025-06-29 19:52:02 IST] 🔗 Enhanced System Monitor — Universal Process & Anomaly Detection
+[2025-06-29 19:52:02 IST] 📌 Language-agnostic process burst detection active
+[2025-06-29 19:52:02 IST] 📊 Dashboard integration enabled
+[2025-06-29 19:52:02 IST] 🔧 NEW PROCESS: systemd (PID 1, User: root)
+[2025-06-29 19:52:02 IST]     └── Command: /sbin/init
+[2025-06-29 19:52:02 IST] 🔧 NEW PROCESS: init-systemd(Ub (PID 2, User: root)
+[2025-06-29 19:52:02 IST]     └── Command: /init
+[2025-06-29 19:52:02 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:02 IST]     Parent: init-systemd(Ub (PID 2, User: root)
+[2025-06-29 19:52:02 IST]     └── Child: init (PID 7, User: root)
+[2025-06-29 19:52:02 IST]         ├── Executable: plan9
+[2025-06-29 19:52:02 IST]         └── Command: plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+[2025-06-29 19:52:02 IST]     Parent Command: /init
+[2025-06-29 19:52:02 IST] 🔧 NEW PROCESS: systemd-journal (PID 53, User: root)
+[2025-06-29 19:52:02 IST]     └── Command: /usr/lib/systemd/systemd-journald
+[2025-06-29 19:52:02 IST] 🔧 NEW PROCESS: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:52:02 IST]     └── Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:52:02 IST] 🔧 NEW PROCESS: systemd-resolve (PID 186, User: systemd-resolve)
+[2025-06-29 19:52:02 IST]     └── Command: /usr/lib/systemd/systemd-resolved
+[2025-06-29 19:52:02 IST] 🔧 NEW PROCESS: systemd-timesyn (PID 187, User: systemd-timesync)
+[2025-06-29 19:52:02 IST]     └── Command: /usr/lib/systemd/systemd-timesyncd
+[2025-06-29 19:52:03 IST] 🔧 NEW PROCESS: cron (PID 196, User: root)
+[2025-06-29 19:52:03 IST]     └── Command: /usr/sbin/cron -f -P
+[2025-06-29 19:52:03 IST] 🔧 NEW PROCESS: dbus-daemon (PID 197, User: messagebus)
+[2025-06-29 19:52:03 IST]     └── Command: @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+[2025-06-29 19:52:03 IST] 🔧 NEW PROCESS: systemd-logind (PID 204, User: root)
+[2025-06-29 19:52:03 IST]     └── Command: /usr/lib/systemd/systemd-logind
+[2025-06-29 19:52:03 IST] 🔧 NEW PROCESS: wsl-pro-service (PID 207, User: root)
+[2025-06-29 19:52:03 IST]     └── Command: /usr/libexec/wsl-pro-service -vv
+[2025-06-29 19:52:03 IST] 🔧 NEW PROCESS: rsyslogd (PID 220, User: syslog)
+[2025-06-29 19:52:03 IST]     └── Command: /usr/sbin/rsyslogd -n -iNONE
+[2025-06-29 19:52:03 IST] 🔧 NEW PROCESS: agetty (PID 226, User: root)
+[2025-06-29 19:52:03 IST]     └── Command: /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+[2025-06-29 19:52:03 IST] 🔧 NEW PROCESS: agetty (PID 229, User: root)
+[2025-06-29 19:52:03 IST]     └── Command: /sbin/agetty -o -p -- \u --noclear - linux
+[2025-06-29 19:52:03 IST] 🔧 NEW PROCESS: unattended-upgr (PID 230, User: root)
+[2025-06-29 19:52:03 IST]     └── Command: /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+[2025-06-29 19:52:03 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:03 IST]     Parent: init-systemd(Ub (PID 2, User: root)
+[2025-06-29 19:52:03 IST]     └── Child: login (PID 320, User: root)
+[2025-06-29 19:52:03 IST]         ├── Executable: /bin/login
+[2025-06-29 19:52:03 IST]         └── Command: /bin/login -f
+[2025-06-29 19:52:03 IST]     Parent Command: /init
+[2025-06-29 19:52:03 IST] 🔧 NEW PROCESS: systemd (PID 371, User: chitv)
+[2025-06-29 19:52:03 IST]     └── Command: /usr/lib/systemd/systemd --user
+[2025-06-29 19:52:03 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:03 IST]     Parent: systemd (PID 371, User: chitv)
+[2025-06-29 19:52:03 IST]     └── Child: sd-pam (PID 372, User: chitv)
+[2025-06-29 19:52:03 IST]         ├── Executable: (sd-pam)
+[2025-06-29 19:52:03 IST]         └── Command: (sd-pam)
+[2025-06-29 19:52:03 IST]     Parent Command: /usr/lib/systemd/systemd --user
+[2025-06-29 19:52:03 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:03 IST]     Parent: login (PID 320, User: root)
+[2025-06-29 19:52:03 IST]     └── Child: bash (PID 380, User: chitv)
+[2025-06-29 19:52:03 IST]         ├── Executable: -bash
+[2025-06-29 19:52:04 IST]         └── Command: -bash
+[2025-06-29 19:52:04 IST]     Parent Command: /bin/login -f
+[2025-06-29 19:52:04 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:04 IST]     Parent: init-systemd(Ub (PID 2, User: root)
+[2025-06-29 19:52:04 IST]     └── Child: SessionLeader (PID 482, User: root)
+[2025-06-29 19:52:04 IST]         ├── Executable: /init
+[2025-06-29 19:52:04 IST]         └── Command: /init
+[2025-06-29 19:52:04 IST]     Parent Command: /init
+[2025-06-29 19:52:04 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:04 IST]     Parent: SessionLeader (PID 482, User: root)
+[2025-06-29 19:52:04 IST]     └── Child: Relay(487 (PID 483, User: root)
+[2025-06-29 19:52:04 IST]         ├── Executable: /init
+[2025-06-29 19:52:04 IST]         └── Command: /init
+[2025-06-29 19:52:04 IST]     Parent Command: /init
+[2025-06-29 19:52:04 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:04 IST]     Parent: Relay(487 (PID 483, User: root)
+[2025-06-29 19:52:04 IST]     └── Child: bash (PID 487, User: chitv)
+[2025-06-29 19:52:04 IST]         ├── Executable: -bash
+[2025-06-29 19:52:04 IST]         └── Command: -bash
+[2025-06-29 19:52:04 IST]     Parent Command: /init
+[2025-06-29 19:52:04 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:04 IST]     Parent: init-systemd(Ub (PID 2, User: root)
+[2025-06-29 19:52:04 IST]     └── Child: SessionLeader (PID 797, User: root)
+[2025-06-29 19:52:04 IST]         ├── Executable: /init
+[2025-06-29 19:52:04 IST]         └── Command: /init
+[2025-06-29 19:52:04 IST]     Parent Command: /init
+[2025-06-29 19:52:04 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:04 IST]     Parent: SessionLeader (PID 797, User: root)
+[2025-06-29 19:52:04 IST]     └── Child: Relay(802 (PID 798, User: root)
+[2025-06-29 19:52:04 IST]         ├── Executable: /init
+[2025-06-29 19:52:04 IST]         └── Command: /init
+[2025-06-29 19:52:04 IST]     Parent Command: /init
+[2025-06-29 19:52:05 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:05 IST]     Parent: Relay(802 (PID 798, User: root)
+[2025-06-29 19:52:05 IST]     └── Child: bash (PID 802, User: chitv)
+[2025-06-29 19:52:05 IST]         ├── Executable: -bash
+[2025-06-29 19:52:05 IST]         └── Command: -bash
+[2025-06-29 19:52:05 IST]     Parent Command: /init
+[2025-06-29 19:52:05 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:05 IST]     Parent: init-systemd(Ub (PID 2, User: root)
+[2025-06-29 19:52:05 IST]     └── Child: SessionLeader (PID 1140, User: root)
+[2025-06-29 19:52:05 IST]         ├── Executable: /init
+[2025-06-29 19:52:05 IST]         └── Command: /init
+[2025-06-29 19:52:05 IST]     Parent Command: /init
+[2025-06-29 19:52:05 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:05 IST]     Parent: SessionLeader (PID 1140, User: root)
+[2025-06-29 19:52:05 IST]     └── Child: Relay(1142 (PID 1141, User: root)
+[2025-06-29 19:52:05 IST]         ├── Executable: /init
+[2025-06-29 19:52:05 IST]         └── Command: /init
+[2025-06-29 19:52:05 IST]     Parent Command: /init
+[2025-06-29 19:52:05 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:05 IST]     Parent: Relay(1142 (PID 1141, User: root)
+[2025-06-29 19:52:05 IST]     └── Child: bash (PID 1142, User: chitv)
+[2025-06-29 19:52:05 IST]         ├── Executable: -bash
+[2025-06-29 19:52:05 IST]         └── Command: -bash
+[2025-06-29 19:52:05 IST]     Parent Command: /init
+[2025-06-29 19:52:05 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:05 IST]     Parent: init-systemd(Ub (PID 2, User: root)
+[2025-06-29 19:52:05 IST]     └── Child: SessionLeader (PID 1155, User: root)
+[2025-06-29 19:52:05 IST]         ├── Executable: /init
+[2025-06-29 19:52:05 IST]         └── Command: /init
+[2025-06-29 19:52:05 IST]     Parent Command: /init
+[2025-06-29 19:52:05 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:05 IST]     Parent: SessionLeader (PID 1155, User: root)
+[2025-06-29 19:52:05 IST]     └── Child: Relay(1157 (PID 1156, User: root)
+[2025-06-29 19:52:05 IST]         ├── Executable: /init
+[2025-06-29 19:52:05 IST]         └── Command: /init
+[2025-06-29 19:52:06 IST]     Parent Command: /init
+[2025-06-29 19:52:06 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:06 IST]     Parent: Relay(1157 (PID 1156, User: root)
+[2025-06-29 19:52:06 IST]     └── Child: bash (PID 1157, User: chitv)
+[2025-06-29 19:52:06 IST]         ├── Executable: -bash
+[2025-06-29 19:52:06 IST]         └── Command: -bash
+[2025-06-29 19:52:06 IST]     Parent Command: /init
+[2025-06-29 19:52:07 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:07 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:52:07 IST]     └── Child: udev-worker (PID 1336, User: root)
+[2025-06-29 19:52:07 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:52:07 IST]         └── Command: (udev-worker)
+[2025-06-29 19:52:07 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:52:08 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:08 IST]     Parent: init-systemd(Ub (PID 2, User: root)
+[2025-06-29 19:52:08 IST]     └── Child: SessionLeader (PID 1342, User: root)
+[2025-06-29 19:52:08 IST]         ├── Executable: /init
+[2025-06-29 19:52:08 IST]         └── Command: /init
+[2025-06-29 19:52:08 IST]     Parent Command: /init
+[2025-06-29 19:52:08 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:08 IST]     Parent: SessionLeader (PID 1342, User: root)
+[2025-06-29 19:52:08 IST]     └── Child: Relay(1347 (PID 1343, User: root)
+[2025-06-29 19:52:08 IST]         ├── Executable: /init
+[2025-06-29 19:52:08 IST]         └── Command: /init
+[2025-06-29 19:52:08 IST]     Parent Command: /init
+[2025-06-29 19:52:08 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:08 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:52:08 IST]     └── Child: udev-worker (PID 1344, User: root)
+[2025-06-29 19:52:08 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:52:08 IST]         └── Command: (udev-worker)
+[2025-06-29 19:52:08 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:52:08 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:08 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:52:08 IST]     └── Child: udev-worker (PID 1345, User: root)
+[2025-06-29 19:52:08 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:52:08 IST]         └── Command: (udev-worker)
+[2025-06-29 19:52:08 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:52:08 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:08 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:52:08 IST]     └── Child: udev-worker (PID 1346, User: root)
+[2025-06-29 19:52:08 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:52:08 IST]         └── Command: (udev-worker)
+[2025-06-29 19:52:09 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:52:09 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:09 IST]     Parent: Relay(1347 (PID 1343, User: root)
+[2025-06-29 19:52:09 IST]     └── Child: bash (PID 1347, User: chitv)
+[2025-06-29 19:52:09 IST]         ├── Executable: -bash
+[2025-06-29 19:52:09 IST]         └── Command: -bash
+[2025-06-29 19:52:09 IST]     Parent Command: /init
+[2025-06-29 19:52:09 IST] 🚨 ANOMALY: init (PID 797) - Process burst: 18 processes spawned rapidly (spawned by init)
+[2025-06-29 19:52:11 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:11 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:52:11 IST]     └── Child: udev-worker (PID 1361, User: root)
+[2025-06-29 19:52:11 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:52:11 IST]         └── Command: (udev-worker)
+[2025-06-29 19:52:11 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:52:11 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:11 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:52:11 IST]     └── Child: udev-worker (PID 1363, User: root)
+[2025-06-29 19:52:11 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:52:11 IST]         └── Command: (udev-worker)
+[2025-06-29 19:52:11 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:52:11 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:11 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:52:11 IST]     └── Child: udev-worker (PID 1364, User: root)
+[2025-06-29 19:52:11 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:52:11 IST]         └── Command: (udev-worker)
+[2025-06-29 19:52:11 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:52:11 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:11 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:52:11 IST]     └── Child: udev-worker (PID 1366, User: root)
+[2025-06-29 19:52:11 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:52:11 IST]         └── Command: (udev-worker)
+[2025-06-29 19:52:11 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:52:19 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:19 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:52:19 IST]     └── Child: udev-worker (PID 1367, User: root)
+[2025-06-29 19:52:19 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:52:19 IST]         └── Command: (udev-worker)
+[2025-06-29 19:52:19 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:52:19 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:19 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:52:19 IST]     └── Child: udev-worker (PID 1368, User: root)
+[2025-06-29 19:52:20 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:52:20 IST]         └── Command: (udev-worker)
+[2025-06-29 19:52:20 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:52:20 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:20 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:52:20 IST]     └── Child: udev-worker (PID 1369, User: root)
+[2025-06-29 19:52:20 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:52:20 IST]         └── Command: (udev-worker)
+[2025-06-29 19:52:20 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:52:20 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:20 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:52:20 IST]     └── Child: udev-worker (PID 1370, User: root)
+[2025-06-29 19:52:20 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:52:20 IST]         └── Command: (udev-worker)
+[2025-06-29 19:52:20 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:52:30 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:30 IST]     Parent: bash (PID 1347, User: chitv)
+[2025-06-29 19:52:30 IST]     └── Child: bash (PID 1372, User: chitv)
+[2025-06-29 19:52:30 IST]         ├── Executable: -bash
+[2025-06-29 19:52:30 IST]         └── Command: -bash
+[2025-06-29 19:52:30 IST]     Parent Command: -bash
+[2025-06-29 19:52:36 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:36 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:52:36 IST]     └── Child: udev-worker (PID 1382, User: root)
+[2025-06-29 19:52:36 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:52:36 IST]         └── Command: (udev-worker)
+[2025-06-29 19:52:36 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:52:36 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:52:36 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:52:36 IST]     └── Child: udev-worker (PID 1383, User: root)
+[2025-06-29 19:52:36 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:52:36 IST]         └── Command: (udev-worker)
+[2025-06-29 19:52:37 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:53:48 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:53:48 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:53:48 IST]     └── Child: udev-worker (PID 1386, User: root)
+[2025-06-29 19:53:48 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:53:48 IST]         └── Command: (udev-worker)
+[2025-06-29 19:53:48 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:53:48 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:53:48 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:53:48 IST]     └── Child: udev-worker (PID 1387, User: root)
+[2025-06-29 19:53:48 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:53:48 IST]         └── Command: (udev-worker)
+[2025-06-29 19:53:48 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:53:48 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:53:48 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:53:48 IST]     └── Child: udev-worker (PID 1388, User: root)
+[2025-06-29 19:53:49 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:53:49 IST]         └── Command: (udev-worker)
+[2025-06-29 19:53:49 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:53:49 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:53:49 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:53:49 IST]     └── Child: udev-worker (PID 1390, User: root)
+[2025-06-29 19:53:49 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:53:49 IST]         └── Command: (udev-worker)
+[2025-06-29 19:53:49 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:53:56 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:53:56 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:53:56 IST]     └── Child: udev-worker (PID 1391, User: root)
+[2025-06-29 19:53:56 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:53:56 IST]         └── Command: (udev-worker)
+[2025-06-29 19:53:56 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:53:56 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:53:56 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:53:56 IST]     └── Child: udev-worker (PID 1392, User: root)
+[2025-06-29 19:53:56 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:53:56 IST]         └── Command: (udev-worker)
+[2025-06-29 19:53:56 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:53:56 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:53:56 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:53:56 IST]     └── Child: udev-worker (PID 1393, User: root)
+[2025-06-29 19:53:56 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:53:56 IST]         └── Command: (udev-worker)
+[2025-06-29 19:53:56 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:54:15 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:54:15 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:54:15 IST]     └── Child: udev-worker (PID 1395, User: root)
+[2025-06-29 19:54:16 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:54:16 IST]         └── Command: (udev-worker)
+[2025-06-29 19:54:16 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:54:16 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:54:16 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:54:16 IST]     └── Child: udev-worker (PID 1397, User: root)
+[2025-06-29 19:54:16 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:54:16 IST]         └── Command: (udev-worker)
+[2025-06-29 19:54:16 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:54:16 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:54:16 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:54:16 IST]     └── Child: udev-worker (PID 1398, User: root)
+[2025-06-29 19:54:16 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:54:16 IST]         └── Command: (udev-worker)
+[2025-06-29 19:54:16 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:54:16 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:54:16 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:54:16 IST]     └── Child: udev-worker (PID 1400, User: root)
+[2025-06-29 19:54:16 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:54:16 IST]         └── Command: (udev-worker)
+[2025-06-29 19:54:16 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:54:22 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:54:22 IST]     Parent: bash (PID 1347, User: chitv)
+[2025-06-29 19:54:22 IST]     └── Child: streamlit (PID 1405, User: chitv)
+[2025-06-29 19:54:22 IST]         ├── Executable: /mnt/c/Users/chitv/OneDrive/Desktop/DEMO/demo/bin/python3
+[2025-06-29 19:54:22 IST]         └── Command: /mnt/c/Users/chitv/OneDrive/Desktop/DEMO/demo/bin/python3 /mnt/c/Users/chitv/OneDrive/Desktop/DEMO/demo/bin/streamlit run /mnt/c/Users/chitv/OneDrive/Desktop/DEMO/demo/lib/python3.12/site-packages/netsnoop/dashboard.py
+[2025-06-29 19:54:22 IST]     Parent Command: -bash
+[2025-06-29 19:54:23 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:54:23 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:54:23 IST]     └── Child: udev-worker (PID 1406, User: root)
+[2025-06-29 19:54:23 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:54:23 IST]         └── Command: (udev-worker)
+[2025-06-29 19:54:23 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:54:23 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:54:23 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:54:24 IST]     └── Child: udev-worker (PID 1407, User: root)
+[2025-06-29 19:54:24 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:54:24 IST]         └── Command: (udev-worker)
+[2025-06-29 19:54:24 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:54:24 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:54:24 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:54:24 IST]     └── Child: udev-worker (PID 1408, User: root)
+[2025-06-29 19:54:24 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:54:24 IST]         └── Command: (udev-worker)
+[2025-06-29 19:54:24 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:54:25 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:54:25 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:54:25 IST]     └── Child: udev-worker (PID 1409, User: root)
+[2025-06-29 19:54:25 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:54:25 IST]         └── Command: (udev-worker)
+[2025-06-29 19:54:25 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:54:36 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:54:36 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:54:36 IST]     └── Child: udev-worker (PID 1411, User: root)
+[2025-06-29 19:54:36 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:54:36 IST]         └── Command: (udev-worker)
+[2025-06-29 19:54:36 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:54:37 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:54:37 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:54:37 IST]     └── Child: udev-worker (PID 1412, User: root)
+[2025-06-29 19:54:37 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:54:38 IST]         └── Command: (udev-worker)
+[2025-06-29 19:54:38 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:54:57 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:54:57 IST]     Parent: streamlit (PID 1405, User: chitv)
+[2025-06-29 19:54:57 IST]     └── Child: gio (PID 1417, User: chitv)
+[2025-06-29 19:54:57 IST]         ├── Executable: N/A
+[2025-06-29 19:54:57 IST]         └── Command: N/A
+[2025-06-29 19:54:57 IST]     Parent Command: /mnt/c/Users/chitv/OneDrive/Desktop/DEMO/demo/bin/python3 /mnt/c/Users/chitv/OneDrive/Desktop/DEMO/demo/bin/streamlit run /mnt/c/Users/chitv/OneDrive/Desktop/DEMO/demo/lib/python3.12/site-packages/netsnoop/dashboard.py
+[2025-06-29 19:55:15 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:15 IST]     Parent: init-systemd(Ub (PID 2, User: root)
+[2025-06-29 19:55:15 IST]     └── Child: SessionLeader (PID 1421, User: root)
+[2025-06-29 19:55:15 IST]         ├── Executable: /init
+[2025-06-29 19:55:15 IST]         └── Command: /init
+[2025-06-29 19:55:15 IST]     Parent Command: /init
+[2025-06-29 19:55:15 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:15 IST]     Parent: SessionLeader (PID 1421, User: root)
+[2025-06-29 19:55:15 IST]     └── Child: Relay(1426 (PID 1422, User: root)
+[2025-06-29 19:55:15 IST]         ├── Executable: /init
+[2025-06-29 19:55:15 IST]         └── Command: /init
+[2025-06-29 19:55:15 IST]     Parent Command: /init
+[2025-06-29 19:55:15 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:15 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:55:15 IST]     └── Child: udev-worker (PID 1423, User: root)
+[2025-06-29 19:55:15 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:55:15 IST]         └── Command: (udev-worker)
+[2025-06-29 19:55:15 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:55:16 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:16 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:55:16 IST]     └── Child: udev-worker (PID 1424, User: root)
+[2025-06-29 19:55:16 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:55:16 IST]         └── Command: (udev-worker)
+[2025-06-29 19:55:16 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:55:16 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:16 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:55:16 IST]     └── Child: udev-worker (PID 1425, User: root)
+[2025-06-29 19:55:16 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:55:16 IST]         └── Command: (udev-worker)
+[2025-06-29 19:55:16 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:55:16 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:16 IST]     Parent: Relay(1426 (PID 1422, User: root)
+[2025-06-29 19:55:16 IST]     └── Child: bash (PID 1426, User: chitv)
+[2025-06-29 19:55:16 IST]         ├── Executable: -bash
+[2025-06-29 19:55:16 IST]         └── Command: -bash
+[2025-06-29 19:55:16 IST]     Parent Command: /init
+[2025-06-29 19:55:25 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:25 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:55:25 IST]     └── Child: udev-worker (PID 1440, User: root)
+[2025-06-29 19:55:25 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:55:25 IST]         └── Command: (udev-worker)
+[2025-06-29 19:55:25 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:55:25 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:25 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:55:25 IST]     └── Child: udev-worker (PID 1442, User: root)
+[2025-06-29 19:55:25 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:55:25 IST]         └── Command: (udev-worker)
+[2025-06-29 19:55:25 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:55:25 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:25 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:55:25 IST]     └── Child: udev-worker (PID 1443, User: root)
+[2025-06-29 19:55:25 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:55:25 IST]         └── Command: (udev-worker)
+[2025-06-29 19:55:25 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:55:25 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:25 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:55:25 IST]     └── Child: udev-worker (PID 1445, User: root)
+[2025-06-29 19:55:25 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:55:25 IST]         └── Command: (udev-worker)
+[2025-06-29 19:55:25 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:55:32 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:32 IST]     Parent: bash (PID 1426, User: chitv)
+[2025-06-29 19:55:32 IST]     └── Child: python3 (PID 1446, User: chitv)
+[2025-06-29 19:55:32 IST]         ├── Executable: python3
+[2025-06-29 19:55:32 IST]         └── Command: python3 test1.py
+[2025-06-29 19:55:32 IST]     Parent Command: -bash
+[2025-06-29 19:55:32 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:32 IST]     Parent: python3 (PID 1446, User: chitv)
+[2025-06-29 19:55:32 IST]     └── Child: python (PID 1447, User: chitv)
+[2025-06-29 19:55:32 IST]         ├── Executable: python
+[2025-06-29 19:55:32 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:55:32 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:55:32 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:32 IST]     Parent: python3 (PID 1446, User: chitv)
+[2025-06-29 19:55:32 IST]     └── Child: python (PID 1448, User: chitv)
+[2025-06-29 19:55:32 IST]         ├── Executable: python
+[2025-06-29 19:55:32 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:55:32 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:55:32 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:32 IST]     Parent: python3 (PID 1446, User: chitv)
+[2025-06-29 19:55:32 IST]     └── Child: python (PID 1449, User: chitv)
+[2025-06-29 19:55:32 IST]         ├── Executable: python
+[2025-06-29 19:55:32 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:55:32 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:55:32 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:32 IST]     Parent: python3 (PID 1446, User: chitv)
+[2025-06-29 19:55:32 IST]     └── Child: python (PID 1450, User: chitv)
+[2025-06-29 19:55:32 IST]         ├── Executable: python
+[2025-06-29 19:55:32 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:55:32 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:55:32 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:32 IST]     Parent: python3 (PID 1446, User: chitv)
+[2025-06-29 19:55:32 IST]     └── Child: python (PID 1451, User: chitv)
+[2025-06-29 19:55:32 IST]         ├── Executable: python
+[2025-06-29 19:55:32 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:55:32 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:55:32 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:32 IST]     Parent: python3 (PID 1446, User: chitv)
+[2025-06-29 19:55:33 IST]     └── Child: python (PID 1452, User: chitv)
+[2025-06-29 19:55:33 IST]         ├── Executable: python
+[2025-06-29 19:55:33 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:55:33 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:55:34 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:34 IST]     Parent: python3 (PID 1446, User: chitv)
+[2025-06-29 19:55:34 IST]     └── Child: python (PID 1453, User: chitv)
+[2025-06-29 19:55:34 IST]         ├── Executable: python
+[2025-06-29 19:55:34 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:55:34 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:55:34 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:34 IST]     Parent: python3 (PID 1446, User: chitv)
+[2025-06-29 19:55:34 IST]     └── Child: python (PID 1454, User: chitv)
+[2025-06-29 19:55:34 IST]         ├── Executable: python
+[2025-06-29 19:55:34 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:55:34 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:55:34 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:34 IST]     Parent: python3 (PID 1446, User: chitv)
+[2025-06-29 19:55:34 IST]     └── Child: python (PID 1455, User: chitv)
+[2025-06-29 19:55:34 IST]         ├── Executable: python
+[2025-06-29 19:55:34 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:55:34 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:55:34 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:34 IST]     Parent: python3 (PID 1446, User: chitv)
+[2025-06-29 19:55:34 IST]     └── Child: python (PID 1456, User: chitv)
+[2025-06-29 19:55:34 IST]         ├── Executable: python
+[2025-06-29 19:55:34 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:55:34 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:55:34 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:34 IST]     Parent: python3 (PID 1446, User: chitv)
+[2025-06-29 19:55:34 IST]     └── Child: python (PID 1458, User: chitv)
+[2025-06-29 19:55:34 IST]         ├── Executable: python
+[2025-06-29 19:55:34 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:55:34 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:55:34 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:34 IST]     Parent: python3 (PID 1446, User: chitv)
+[2025-06-29 19:55:34 IST]     └── Child: python (PID 1459, User: chitv)
+[2025-06-29 19:55:34 IST]         ├── Executable: python
+[2025-06-29 19:55:34 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:55:34 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:55:34 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:34 IST]     Parent: python3 (PID 1446, User: chitv)
+[2025-06-29 19:55:34 IST]     └── Child: python (PID 1460, User: chitv)
+[2025-06-29 19:55:34 IST]         ├── Executable: python
+[2025-06-29 19:55:34 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:55:35 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:55:35 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:35 IST]     Parent: python3 (PID 1446, User: chitv)
+[2025-06-29 19:55:35 IST]     └── Child: python (PID 1461, User: chitv)
+[2025-06-29 19:55:35 IST]         ├── Executable: python
+[2025-06-29 19:55:35 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:55:35 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:55:35 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:35 IST]     Parent: python3 (PID 1446, User: chitv)
+[2025-06-29 19:55:35 IST]     └── Child: python (PID 1463, User: chitv)
+[2025-06-29 19:55:35 IST]         ├── Executable: python
+[2025-06-29 19:55:35 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:55:35 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:55:35 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:35 IST]     Parent: python3 (PID 1446, User: chitv)
+[2025-06-29 19:55:35 IST]     └── Child: python (PID 1464, User: chitv)
+[2025-06-29 19:55:35 IST]         ├── Executable: python
+[2025-06-29 19:55:35 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:55:35 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:55:35 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:35 IST]     Parent: python3 (PID 1446, User: chitv)
+[2025-06-29 19:55:35 IST]     └── Child: python (PID 1465, User: chitv)
+[2025-06-29 19:55:35 IST]         ├── Executable: python
+[2025-06-29 19:55:35 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:55:35 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:55:35 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:35 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:55:35 IST]     └── Child: udev-worker (PID 1466, User: root)
+[2025-06-29 19:55:35 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:55:35 IST]         └── Command: (udev-worker)
+[2025-06-29 19:55:35 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:55:35 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:35 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:55:35 IST]     └── Child: udev-worker (PID 1467, User: root)
+[2025-06-29 19:55:35 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:55:35 IST]         └── Command: (udev-worker)
+[2025-06-29 19:55:35 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:55:35 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:35 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:55:35 IST]     └── Child: udev-worker (PID 1468, User: root)
+[2025-06-29 19:55:35 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:55:35 IST]         └── Command: (udev-worker)
+[2025-06-29 19:55:35 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:55:35 IST] 🚨 ANOMALY: python (PID 1447) - Process burst: 21 processes spawned rapidly
+[2025-06-29 19:55:40 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:40 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:55:40 IST]     └── Child: udev-worker (PID 1472, User: root)
+[2025-06-29 19:55:40 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:55:41 IST]         └── Command: (udev-worker)
+[2025-06-29 19:55:41 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:55:41 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:41 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:55:41 IST]     └── Child: udev-worker (PID 1473, User: root)
+[2025-06-29 19:55:41 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:55:41 IST]         └── Command: (udev-worker)
+[2025-06-29 19:55:41 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:55:41 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:41 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:55:41 IST]     └── Child: udev-worker (PID 1474, User: root)
+[2025-06-29 19:55:41 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:55:41 IST]         └── Command: (udev-worker)
+[2025-06-29 19:55:41 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:55:41 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:41 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:55:41 IST]     └── Child: udev-worker (PID 1475, User: root)
+[2025-06-29 19:55:41 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:55:41 IST]         └── Command: (udev-worker)
+[2025-06-29 19:55:41 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:55:56 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:56 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:55:56 IST]     └── Child: udev-worker (PID 1503, User: root)
+[2025-06-29 19:55:56 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:55:56 IST]         └── Command: (udev-worker)
+[2025-06-29 19:55:56 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:55:56 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:56 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:55:56 IST]     └── Child: udev-worker (PID 1504, User: root)
+[2025-06-29 19:55:56 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:55:57 IST]         └── Command: (udev-worker)
+[2025-06-29 19:55:57 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:55:57 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:57 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:55:57 IST]     └── Child: udev-worker (PID 1505, User: root)
+[2025-06-29 19:55:57 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:55:57 IST]         └── Command: (udev-worker)
+[2025-06-29 19:55:57 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:55:57 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:55:57 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:55:57 IST]     └── Child: udev-worker (PID 1507, User: root)
+[2025-06-29 19:55:57 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:55:57 IST]         └── Command: (udev-worker)
+[2025-06-29 19:55:57 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:04 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:04 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:04 IST]     └── Child: udev-worker (PID 1511, User: root)
+[2025-06-29 19:56:04 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:04 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:04 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:04 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:04 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:04 IST]     └── Child: udev-worker (PID 1512, User: root)
+[2025-06-29 19:56:04 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:04 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:04 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:04 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:04 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:04 IST]     └── Child: udev-worker (PID 1513, User: root)
+[2025-06-29 19:56:04 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:04 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:04 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:05 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:05 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:05 IST]     └── Child: udev-worker (PID 1515, User: root)
+[2025-06-29 19:56:05 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:05 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:05 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:11 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:11 IST] 🚨 ANOMALY: test2.py (PID 1516) - HIGH MEMORY: 69.53 MB memory usage
+[2025-06-29 19:56:11 IST]     Parent: bash (PID 1426, User: chitv)
+[2025-06-29 19:56:11 IST]     └── Child: python3 (PID 1516, User: chitv)
+[2025-06-29 19:56:11 IST]         ├── Executable: python3
+[2025-06-29 19:56:11 IST]         └── Command: python3 test2.py
+[2025-06-29 19:56:11 IST]     Parent Command: -bash
+[2025-06-29 19:56:16 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:16 IST]     Parent: init-systemd(Ub (PID 2, User: root)
+[2025-06-29 19:56:16 IST]     └── Child: SessionLeader (PID 1517, User: root)
+[2025-06-29 19:56:16 IST]         ├── Executable: /init
+[2025-06-29 19:56:16 IST]         └── Command: /init
+[2025-06-29 19:56:16 IST]     Parent Command: /init
+[2025-06-29 19:56:16 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:16 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:16 IST]     └── Child: udev-worker (PID 1519, User: root)
+[2025-06-29 19:56:16 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:16 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:16 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:16 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:16 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:16 IST]     └── Child: udev-worker (PID 1520, User: root)
+[2025-06-29 19:56:16 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:16 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:16 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:16 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:16 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:16 IST]     └── Child: udev-worker (PID 1521, User: root)
+[2025-06-29 19:56:16 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:16 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:16 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:16 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:16 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:16 IST]     └── Child: udev-worker (PID 1522, User: root)
+[2025-06-29 19:56:16 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:16 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:16 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:25 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:25 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:26 IST]     └── Child: udev-worker (PID 1527, User: root)
+[2025-06-29 19:56:26 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:26 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:26 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:26 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:26 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:26 IST]     └── Child: udev-worker (PID 1528, User: root)
+[2025-06-29 19:56:26 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:26 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:26 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:26 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:26 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:26 IST]     └── Child: udev-worker (PID 1529, User: root)
+[2025-06-29 19:56:26 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:26 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:26 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:26 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:26 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:26 IST]     └── Child: udev-worker (PID 1530, User: root)
+[2025-06-29 19:56:26 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:26 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:26 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:26 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:26 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:26 IST]     └── Child: udev-worker (PID 1531, User: root)
+[2025-06-29 19:56:26 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:26 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:26 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:36 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:36 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:36 IST]     └── Child: udev-worker (PID 1532, User: root)
+[2025-06-29 19:56:36 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:36 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:36 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:37 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:37 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:37 IST]     └── Child: udev-worker (PID 1533, User: root)
+[2025-06-29 19:56:37 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:37 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:37 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:50 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:50 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:50 IST]     └── Child: udev-worker (PID 1535, User: root)
+[2025-06-29 19:56:50 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:50 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:50 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:50 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:50 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:50 IST]     └── Child: udev-worker (PID 1537, User: root)
+[2025-06-29 19:56:50 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:50 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:51 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:51 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:51 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:51 IST]     └── Child: udev-worker (PID 1538, User: root)
+[2025-06-29 19:56:51 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:51 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:51 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:51 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:51 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:51 IST]     └── Child: udev-worker (PID 1540, User: root)
+[2025-06-29 19:56:51 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:51 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:51 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:58 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:58 IST]     Parent: bash (PID 1426, User: chitv)
+[2025-06-29 19:56:58 IST]     └── Child: python3 (PID 1544, User: chitv)
+[2025-06-29 19:56:58 IST]         ├── Executable: python3
+[2025-06-29 19:56:58 IST]         └── Command: python3 test1.py
+[2025-06-29 19:56:58 IST]     Parent Command: -bash
+[2025-06-29 19:56:59 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:59 IST]     Parent: python3 (PID 1544, User: chitv)
+[2025-06-29 19:56:59 IST]     └── Child: python (PID 1545, User: chitv)
+[2025-06-29 19:56:59 IST]         ├── Executable: python
+[2025-06-29 19:56:59 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:56:59 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:56:59 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:59 IST]     Parent: python3 (PID 1544, User: chitv)
+[2025-06-29 19:56:59 IST]     └── Child: python (PID 1546, User: chitv)
+[2025-06-29 19:56:59 IST]         ├── Executable: python
+[2025-06-29 19:56:59 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:56:59 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:56:59 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:59 IST]     Parent: python3 (PID 1544, User: chitv)
+[2025-06-29 19:56:59 IST]     └── Child: python (PID 1547, User: chitv)
+[2025-06-29 19:56:59 IST]         ├── Executable: python
+[2025-06-29 19:56:59 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:56:59 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:56:59 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:59 IST]     Parent: python3 (PID 1544, User: chitv)
+[2025-06-29 19:56:59 IST]     └── Child: python (PID 1548, User: chitv)
+[2025-06-29 19:56:59 IST]         ├── Executable: python
+[2025-06-29 19:56:59 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:56:59 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:56:59 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:59 IST]     Parent: python3 (PID 1544, User: chitv)
+[2025-06-29 19:56:59 IST]     └── Child: python (PID 1549, User: chitv)
+[2025-06-29 19:56:59 IST]         ├── Executable: python
+[2025-06-29 19:56:59 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:56:59 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:56:59 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:59 IST]     Parent: python3 (PID 1544, User: chitv)
+[2025-06-29 19:56:59 IST]     └── Child: python (PID 1550, User: chitv)
+[2025-06-29 19:56:59 IST]         ├── Executable: python
+[2025-06-29 19:56:59 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:56:59 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:56:59 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:59 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:59 IST]     └── Child: udev-worker (PID 1551, User: root)
+[2025-06-29 19:56:59 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:59 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:59 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:59 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:59 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:59 IST]     └── Child: udev-worker (PID 1552, User: root)
+[2025-06-29 19:56:59 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:56:59 IST]         └── Command: (udev-worker)
+[2025-06-29 19:56:59 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:56:59 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:56:59 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:56:59 IST]     └── Child: udev-worker (PID 1553, User: root)
+[2025-06-29 19:57:00 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:57:00 IST]         └── Command: (udev-worker)
+[2025-06-29 19:57:00 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:57:00 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:57:00 IST]     Parent: python3 (PID 1544, User: chitv)
+[2025-06-29 19:57:00 IST]     └── Child: python (PID 1554, User: chitv)
+[2025-06-29 19:57:00 IST]         ├── Executable: python
+[2025-06-29 19:57:00 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:57:00 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:57:00 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:57:00 IST]     Parent: python3 (PID 1544, User: chitv)
+[2025-06-29 19:57:00 IST]     └── Child: python (PID 1555, User: chitv)
+[2025-06-29 19:57:00 IST]         ├── Executable: python
+[2025-06-29 19:57:00 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:57:00 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:57:00 IST] 🚨 ANOMALY: python (PID 1545) - Process burst: 12 processes spawned rapidly (spawned by test1.py)
+[2025-06-29 19:57:01 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:57:01 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:57:01 IST]     └── Child: udev-worker (PID 1556, User: root)
+[2025-06-29 19:57:01 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:57:01 IST]         └── Command: (udev-worker)
+[2025-06-29 19:57:01 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:57:01 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:57:01 IST]     Parent: python3 (PID 1544, User: chitv)
+[2025-06-29 19:57:01 IST]     └── Child: python (PID 1561, User: chitv)
+[2025-06-29 19:57:01 IST]         ├── Executable: python
+[2025-06-29 19:57:01 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:57:01 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:57:01 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:57:01 IST]     Parent: python3 (PID 1544, User: chitv)
+[2025-06-29 19:57:01 IST]     └── Child: python (PID 1562, User: chitv)
+[2025-06-29 19:57:01 IST]         ├── Executable: python
+[2025-06-29 19:57:01 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:57:01 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:57:01 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:57:01 IST]     Parent: python3 (PID 1544, User: chitv)
+[2025-06-29 19:57:01 IST]     └── Child: python (PID 1563, User: chitv)
+[2025-06-29 19:57:01 IST]         ├── Executable: python
+[2025-06-29 19:57:01 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:57:01 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:57:01 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:57:01 IST]     Parent: python3 (PID 1544, User: chitv)
+[2025-06-29 19:57:01 IST]     └── Child: python (PID 1564, User: chitv)
+[2025-06-29 19:57:01 IST]         ├── Executable: python
+[2025-06-29 19:57:01 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:57:01 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:57:01 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:57:01 IST]     Parent: python3 (PID 1544, User: chitv)
+[2025-06-29 19:57:01 IST]     └── Child: python (PID 1565, User: chitv)
+[2025-06-29 19:57:01 IST]         ├── Executable: python
+[2025-06-29 19:57:01 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:57:01 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:57:01 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:57:01 IST]     Parent: python3 (PID 1544, User: chitv)
+[2025-06-29 19:57:01 IST]     └── Child: python (PID 1566, User: chitv)
+[2025-06-29 19:57:01 IST]         ├── Executable: python
+[2025-06-29 19:57:01 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:57:02 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:57:02 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:57:02 IST]     Parent: python3 (PID 1544, User: chitv)
+[2025-06-29 19:57:02 IST]     └── Child: python (PID 1567, User: chitv)
+[2025-06-29 19:57:02 IST]         ├── Executable: python
+[2025-06-29 19:57:02 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:57:02 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:57:02 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:57:02 IST]     Parent: python3 (PID 1544, User: chitv)
+[2025-06-29 19:57:02 IST]     └── Child: python (PID 1568, User: chitv)
+[2025-06-29 19:57:02 IST]         ├── Executable: python
+[2025-06-29 19:57:02 IST]         └── Command: python -c import time; time.sleep(2)  # burst_test_marker
+[2025-06-29 19:57:02 IST]     Parent Command: python3 test1.py
+[2025-06-29 19:57:02 IST] 🚨 ANOMALY: python (PID 1545) - Process burst: 21 processes spawned rapidly
+[2025-06-29 19:58:37 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:58:37 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:58:37 IST]     └── Child: udev-worker (PID 1569, User: root)
+[2025-06-29 19:58:37 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:58:37 IST]         └── Command: (udev-worker)
+[2025-06-29 19:58:37 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:58:37 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:58:37 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:58:37 IST]     └── Child: udev-worker (PID 1570, User: root)
+[2025-06-29 19:58:37 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:58:37 IST]         └── Command: (udev-worker)
+[2025-06-29 19:58:37 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:59:03 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:59:03 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:59:03 IST]     └── Child: udev-worker (PID 1573, User: root)
+[2025-06-29 19:59:03 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:59:03 IST]         └── Command: (udev-worker)
+[2025-06-29 19:59:03 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:59:03 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:59:03 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:59:03 IST]     └── Child: udev-worker (PID 1574, User: root)
+[2025-06-29 19:59:03 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:59:03 IST]         └── Command: (udev-worker)
+[2025-06-29 19:59:03 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:59:03 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:59:03 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:59:03 IST]     └── Child: udev-worker (PID 1575, User: root)
+[2025-06-29 19:59:03 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:59:04 IST]         └── Command: (udev-worker)
+[2025-06-29 19:59:05 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:59:05 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:59:05 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:59:05 IST]     └── Child: udev-worker (PID 1577, User: root)
+[2025-06-29 19:59:05 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:59:05 IST]         └── Command: (udev-worker)
+[2025-06-29 19:59:05 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:59:09 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:59:09 IST]     Parent: bash (PID 1426, User: chitv)
+[2025-06-29 19:59:09 IST]     └── Child: python3 (PID 1578, User: chitv)
+[2025-06-29 19:59:09 IST]         ├── Executable: python3
+[2025-06-29 19:59:09 IST]         └── Command: python3 test3.py
+[2025-06-29 19:59:09 IST]     Parent Command: -bash
+[2025-06-29 19:59:12 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:59:12 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:59:12 IST]     └── Child: udev-worker (PID 1596, User: root)
+[2025-06-29 19:59:12 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:59:12 IST]         └── Command: (udev-worker)
+[2025-06-29 19:59:12 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:59:12 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:59:12 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:59:12 IST]     └── Child: udev-worker (PID 1597, User: root)
+[2025-06-29 19:59:12 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:59:12 IST]         └── Command: (udev-worker)
+[2025-06-29 19:59:12 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:59:12 IST] 🌳 PROCESS TREE:
+[2025-06-29 19:59:12 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 19:59:12 IST]     └── Child: udev-worker (PID 1598, User: root)
+[2025-06-29 19:59:13 IST]         ├── Executable: (udev-worker)
+[2025-06-29 19:59:13 IST]         └── Command: (udev-worker)
+[2025-06-29 19:59:13 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 19:59:36 IST] 🚨 ANOMALY: test3.py (PID 1578) - HIGH CPU: 90.0% CPU usage
+[2025-06-29 20:00:03 IST] 🚨 ANOMALY: test3.py (PID 1578) - HIGH CPU: 90.0% CPU usage
+[2025-06-29 20:00:36 IST] 🌳 PROCESS TREE:
+[2025-06-29 20:00:36 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 20:00:36 IST]     └── Child: udev-worker (PID 1603, User: root)
+[2025-06-29 20:00:36 IST]         ├── Executable: (udev-worker)
+[2025-06-29 20:00:36 IST]         └── Command: (udev-worker)
+[2025-06-29 20:00:36 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 20:00:36 IST] 🌳 PROCESS TREE:
+[2025-06-29 20:00:36 IST]     Parent: systemd-udevd (PID 101, User: root)
+[2025-06-29 20:00:36 IST]     └── Child: udev-worker (PID 1604, User: root)
+[2025-06-29 20:00:36 IST]         ├── Executable: (udev-worker)
+[2025-06-29 20:00:36 IST]         └── Command: (udev-worker)
+[2025-06-29 20:00:36 IST]     Parent Command: /usr/lib/systemd/systemd-udevd
+[2025-06-29 20:00:47 IST] 🛑 Monitoring stopped by user
