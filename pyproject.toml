@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "netsnoop-monitor"
+version = "1.0.0"
+description = "Comprehensive system monitoring with 5 anomaly detectors"
+readme = "README.md"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: System :: Monitoring",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+keywords = ["monitoring", "system-monitor", "anomaly-detection"]
+dependencies = [
+    "psutil>=5.9.0",
+    "streamlit>=1.20.0",
+    "plotly>=5.13.0",
+    "pandas>=1.5.0",
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=22.0.0",
+    "flake8>=4.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/netsnoop-monitor"
+Documentation = "https://github.com/yourusername/netsnoop-monitor/blob/main/README.md"
+Repository = "https://github.com/yourusername/netsnoop-monitor"
+Issues = "https://github.com/yourusername/netsnoop-monitor/issues"
+
+[project.scripts]
+netsnoop = "netsnoop.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["netsnoop*"]
+exclude = ["tests*"]
