@@ -556,7 +556,7 @@ in the Software without restriction...
 - **Documentation:** See `docs/` folder
 - **Issues:** GitHub Issues
 - **Discussions:** GitHub Discussions
-- **Email:** your.email@example.com
+- **Email:** chitvijoshi2646@gmail.com
 
 ---
 
