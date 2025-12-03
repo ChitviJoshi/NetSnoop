@@ -522,22 +522,7 @@ pandas>=1.5.0      # Data manipulation
 - [ ] Machine learning-based anomaly detection
 - [ ] Database support (PostgreSQL, MongoDB)
 - [ ] Multi-machine monitoring
-- [ ] Mobile app
 - [ ] REST API for integrations
-- [ ] Docker containerization
-- [ ] Kubernetes deployment support
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these guidelines:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ---
 
@@ -560,40 +545,9 @@ in the Software without restriction...
 ## 👥 Authors
 
 **Your Name**
-- Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-
----
-
-## 🙏 Acknowledgments
-
-- Inspired by modern system monitoring tools
-- Built as an academic project demonstrating comprehensive OOP principles
-- Special thanks to the Python community for excellent libraries
-
----
-
-## 📚 Documentation
-
-### Complete Documentation Set
-
-- **[CODE_SUMMARY.md](CODE_SUMMARY.md)** - Complete code explanation with viva Q&A
-- **[COMPLETE_UML_DIAGRAMS.md](COMPLETE_UML_DIAGRAMS.md)** - All UML diagrams
-- **[FINAL_PROJECT_REPORT.md](FINAL_PROJECT_REPORT.md)** - Academic project report
-- **[GRAPHVIZ_DOT_CODES.md](GRAPHVIZ_DOT_CODES.md)** - Diagram generation codes
-- **[QUICK_START.md](QUICK_START.md)** - 5-minute setup guide
-- **[MASTER_INDEX.md](MASTER_INDEX.md)** - Navigation guide for all docs
-
----
-
-## 🐛 Bug Reports
-
-Found a bug? Please open an issue with:
-- OS and Python version
-- Steps to reproduce
-- Expected vs actual behavior
-- Error messages/screenshots
+- Email: chitvijoshi2646@gmail.com
+- GitHub: [@yourusername](https://github.com/ChitviJoshi)
+- LinkedIn: [Your Name](https://linkedin.com/in/chitvi-joshi-2985ab324)
 
 ---
 
@@ -603,26 +557,6 @@ Found a bug? Please open an issue with:
 - **Issues:** GitHub Issues
 - **Discussions:** GitHub Discussions
 - **Email:** your.email@example.com
-
----
-
-## ⭐ Star History
-
-If you find this project useful, please consider giving it a star!
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/netsnoop-monitor&type=Date)](https://star-history.com/#yourusername/netsnoop-monitor&Date)
-
----
-
-## 📈 Project Status
-
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/netsnoop-monitor)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/netsnoop-monitor)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/netsnoop-monitor)
-
-**Status:** ✅ Active Development  
-**Version:** 1.0.0  
-**Last Updated:** December 2024
 
 ---
 
