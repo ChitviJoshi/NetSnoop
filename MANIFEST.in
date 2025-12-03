@@ -1,0 +1,15 @@
+# Include documentation
+include README.md
+include LICENSE
+include requirements.txt
+
+# Include example scripts
+recursive-include examples *.py
+
+# Include documentation
+recursive-include docs *.md
+
+# Exclude test files and cache
+recursive-exclude tests *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]

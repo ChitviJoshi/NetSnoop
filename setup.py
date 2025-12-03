@@ -1,37 +1,56 @@
 from setuptools import setup, find_packages
-from pathlib import Path
 
-# Read README
-this_dir = Path(__file__).parent
-long_description = (this_dir / "README.md").read_text(encoding="utf-8")
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
+with open("requirements.txt", "r", encoding="utf-8") as fh:
+    requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
 
 setup(
-    name='netsnoop',
-    version='0.1.4',  # 👈 bump version
-    description='NetSnoop: Real-Time Linux System Anomaly Monitor and Dashboard',
+    name="netsnoop-monitor",                    # Package name on PyPI
+    version="1.0.0",                            # Version number
+    author="Your Name",                         # Your name
+    author_email="your.email@example.com",     # Your email
+    description="Comprehensive system monitoring with 5 anomaly detectors",
     long_description=long_description,
-    long_description_content_type='text/markdown',  # 👈 crucial for PyPI to render it
-    author='Chitvi Joshi',
-    author_email='chitvijoshi2646@gmail.com',
-    packages=find_packages(),
-    include_package_data=True,
-    install_requires=[
-        'streamlit',
-        'pandas',
-        'plotly'
-    ],
+    long_description_content_type="text/markdown",
+    url="https://github.com/yourusername/netsnoop-monitor",  # GitHub URL
+    project_urls={
+        "Bug Tracker": "https://github.com/yourusername/netsnoop-monitor/issues",
+        "Documentation": "https://github.com/yourusername/netsnoop-monitor/blob/main/README.md",
+        "Source Code": "https://github.com/yourusername/netsnoop-monitor",
+    },
+    packages=find_packages(),                   # Auto-find packages
     classifiers=[
-        'Programming Language :: Python :: 3',
-        'Operating System :: POSIX :: Linux',
-        'License :: OSI Approved :: MIT License',
-        'Intended Audience :: System Administrators',
-        'Topic :: System :: Monitoring',
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Developers",
+        "Intended Audience :: System Administrators",
+        "Topic :: System :: Monitoring",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Operating System :: OS Independent",
+        "Operating System :: POSIX :: Linux",
+        "Operating System :: Microsoft :: Windows",
     ],
-    entry_points={
-        'console_scripts': [
-            'netsnoop-init = netsnoop.setup_runner:main',
+    python_requires=">=3.8",                    # Minimum Python version
+    install_requires=requirements,              # Dependencies from requirements.txt
+    extras_require={
+        "dev": [
+            "pytest>=7.0.0",
+            "black>=22.0.0",
+            "flake8>=4.0.0",
         ],
     },
-    license='MIT',
-    python_requires='>=3.7',
+    entry_points={
+        "console_scripts": [
+            "netsnoop=netsnoop.cli:main",      # Command-line interface
+        ],
+    },
+    include_package_data=True,                  # Include files from MANIFEST.in
+    keywords="monitoring system-monitor anomaly-detection performance cpu memory",
+    license="MIT",
 )

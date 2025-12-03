@@ -1,0 +1,35 @@
+### **5. Create `.gitignore`**
+```
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual Environment
+netsnoop_env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Build artifacts
+*.exe
+*.spec
+*.zip
+*.iss
+
+# Logs and data
+*.log
+*.csv
+netsnoop_persistent.txt
