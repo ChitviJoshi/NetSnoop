@@ -8,17 +8,17 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name="netsnoop-monitor",                    # Package name on PyPI
-    version="1.0.0",                            # Version number
-    author="Your Name",                         # Your name
-    author_email="your.email@example.com",     # Your email
+    version="0.2.1",                            # Version number
+    author="Chitvi Joshi",                         # Your name
+    author_email="chitvijoshi2646@gmail.com",     # Your email
     description="Comprehensive system monitoring with 5 anomaly detectors",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/netsnoop-monitor",  # GitHub URL
+    url="https://github.com/ChitviJoshi/NetSnoop",  # GitHub URL
     project_urls={
-        "Bug Tracker": "https://github.com/yourusername/netsnoop-monitor/issues",
-        "Documentation": "https://github.com/yourusername/netsnoop-monitor/blob/main/README.md",
-        "Source Code": "https://github.com/yourusername/netsnoop-monitor",
+        "Bug Tracker": "https://github.com/ChitviJoshi/NetSnoop/issues",
+        "Documentation": "https://github.com/ChitviJoshi/NetSnoop/blob/main/README.md",
+        "Source Code": "https://github.com/ChitviJoshi/NetSnoop",
     },
     packages=find_packages(),                   # Auto-find packages
     classifiers=[

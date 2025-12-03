@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "netsnoop-monitor"
-version = "0.2.0"
+version = "0.2.1"
 description = "Comprehensive system monitoring with 5 anomaly detectors"
 readme = "README.md"
 authors = [
-    {name = "Your Name", email = "your.email@example.com"}
+    {name = "Chitvi Joshi", email = "chitvijoshi2646@gmail.com"}
 ]
 license = {text = "MIT"}
 classifiers = [
@@ -39,10 +39,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/netsnoop-monitor"
-Documentation = "https://github.com/yourusername/netsnoop-monitor/blob/main/README.md"
-Repository = "https://github.com/yourusername/netsnoop-monitor"
-Issues = "https://github.com/yourusername/netsnoop-monitor/issues"
+Homepage = "https://github.com/ChitviJoshi/NetSnoop"
+Documentation = "https://github.com/ChitviJoshi/NetSnoop/blob/main/README.md"
+Repository = "https://github.com/ChitviJoshi/NetSnoop"
+Issues = "https://github.com/ChitviJoshi/NetSnoop/issues"
 
 [project.scripts]
 netsnoop = "netsnoop.cli:main"
