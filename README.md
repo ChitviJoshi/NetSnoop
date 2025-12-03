@@ -546,8 +546,8 @@ in the Software without restriction...
 
 **Your Name**
 - Email: chitvijoshi2646@gmail.com
-- GitHub: [@yourusername](https://github.com/ChitviJoshi)
-- LinkedIn: [Your Name](https://linkedin.com/in/chitvi-joshi-2985ab324)
+- GitHub: [@ChitviJoshi](https://github.com/ChitviJoshi)
+- LinkedIn: [Chitvi Joshi](https://linkedin.com/in/chitvi-joshi-2985ab324)
 
 ---
 
